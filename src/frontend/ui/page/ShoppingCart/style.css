@@ -1,0 +1,517 @@
+.shopping-cart-page-container{
+    display: flex;
+    margin-bottom: 4.5rem;
+}
+
+.transaction-completed-page-container{
+    margin-bottom: 3rem;
+}
+
+.transaction-process-step-three-completion{
+}
+
+.transaction-process{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.transaction-process-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+
+
+
+.transaction-in-process-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: transparent ;
+    border-radius: 50%;
+    height: 2rem;
+    width:2rem;
+    background-color: rgb(255,1,54);
+    color: white;
+}
+
+.transaction-not-in-process-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px ;
+    border-radius: 50%;
+    height: 2rem;
+    width:2rem;
+    color: black;
+}
+
+.division-line{
+    width: 7rem;
+    height:1.3px;
+    background-color: #d7d7d7;
+}
+
+.shopping-cart-container{
+    width: 60%;
+    margin-left: 4rem;
+    border: solid rgb(232,232,232);
+}
+
+.shopping-cart-title-container{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+}
+
+.shopping-cart-top-line{
+    width: 100%;
+    border-top: solid rgb(232,232,232);
+}
+
+.empty-shopping-cart{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shopping-cart-image{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.shopping-cart-item-list{
+    display: flex;
+    height: 12rem;
+    flex-grow: 1;
+    flex-basis:0;
+    justify-content: flex-start;
+    width: 100%;
+    border-bottom: solid rgb(232,232,232);
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+}
+
+.shopping-cart-item-image{
+    height: 10rem;
+    width: 10rem;
+    border: solid rgb(232,232,232);
+    margin: 1rem;
+}
+
+.shopping-cart-item-details{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.shopping-cart-item-details-name{
+    font-weight: bold;
+}
+
+.shopping-cart-item-details-price{
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
+    opacity: 70%;
+}
+
+.shopping-cart-item-details-quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shopping-cart-item-details-duration{
+    width: 10rem;
+    margin-top:3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.shopping-cart-item-details-size{
+    width: 10rem;
+    margin-top:3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.tattoo-size-search-container{
+    width: 11rem;
+}
+
+.shopping-cart-item-details-total-price{
+    margin: 1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-price{
+    font-weight: bold;
+}
+
+.total-price-detail{
+    margin: 1rem;
+}
+
+.shopping-cart-item-details-trashcan{
+    display: flex;
+    width: 100%;
+    margin: 1rem 5rem 1rem 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.trashcan{
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+}
+
+.confirm-and-checkout-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+.proceed-button{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.confirm-button{
+    width: 15rem;
+    height:2rem;
+    margin: 0.5rem 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(250,65,76);
+    border: transparent;
+    border-radius: 5px;
+}
+
+.confirm-button:hover{
+    color: white;
+}
+
+.checkout-button{
+    width: 15rem;
+    height:2rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(250,65,76);
+    border: transparent;
+    border-radius: 5px;
+}
+
+@media (max-width: 1150px){
+    .shopping-cart-page-container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .shopping-cart-container{
+        width: 90vw;
+        margin-left: 0;
+    }
+}
+
+@media(max-width: 750px){
+    .transaction-process-step-one-checkout{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:3rem;
+    }
+    .transaction-process-step-two-payment{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width:3rem;
+    }
+    .transaction-process-step-three-completion{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 7rem;
+    }
+    .transaction-not-in-process-icon{
+        font-size: small !important;
+    }
+    .transaction-in-process-icon{
+        font-size: small !important;
+    }
+    .transaction-process-step-one-name{
+        font-size: small;
+    }
+    .transaction-process-step-two-name{
+        font-size: small;
+    }
+    .transaction-process-step-three-name{
+        font-size: small;
+    }
+    .transaction-process{
+        width:70%;
+        height:70%;
+    }
+    .division-line{
+        width: 4rem;
+    }
+    .show-details{
+        font-size:small !important;
+    }
+    .subtotal{
+        font-size:small !important;
+    }
+
+    .subtotal-number{
+        font-size:small !important;
+    }
+
+    .total-cost{
+        font-size:small !important;
+    }
+
+    .total-cost-number{
+        font-size:small !important;
+    }
+
+    .shopping-cart-title-container{
+        font-size:small !important;
+    }
+
+    .shopping-cart-item-image{
+        height:7rem;
+        width:7rem;
+    }
+
+    .shopping-cart-item-list{
+        height:9rem;
+    }
+
+    .shopping-cart-item-details-name{
+        font-size: small !important;
+    }
+
+    .shopping-cart-item-details-size{
+        margin-top: 2rem;
+    }
+
+    .shopping-cart-item-details-duration{
+        margin-top: 2rem;
+    }
+
+    .shopping-cart-item-details-price{
+        font-size: small !important;
+    }
+
+    .quantity-plus-one-container{
+        height:1.5rem;
+        width:1.5rem;
+    }
+
+    .quantity-minus-one-container{
+        height:1.5rem;
+        width:1.5rem;
+    }
+
+    .tattoo-size-search-container>label{
+        font-size: small !important;
+    }
+
+    .tattoo-size-search-container>select{
+        font-size: small !important;
+    }
+
+    .total-price{
+        font-size: small !important;
+    }
+
+    .total-price-detail{
+        font-size: small !important;
+    }
+    .shopping-cart-item-details-total-price{
+        margin-top:2rem;
+    }
+
+    .confirm-and-checkout-button{
+        font-size: small;
+    }
+
+    .confirm-button{
+        width: 11rem;
+    }
+    .empty-shopping-cart{
+        font-size:small;
+    }
+}
+
+@media(max-width: 570px){
+    .empty-shopping-cart{
+        font-size:x-small;
+    }
+    .transaction-process-step-three-completion{
+        width: 5rem;
+    }
+    .transaction-process-step-one-name{
+        font-size: x-small !important;
+    }
+    .transaction-process-step-two-name{
+        font-size: x-small !important;
+    }
+    .transaction-process-step-three-name{
+        font-size: x-small !important;
+    }
+    .transaction-process-step-three-name{
+        width: 5.5rem;
+    }
+    .transaction-not-in-process-icon{
+        font-size: x-small !important;
+    }
+    .transaction-in-process-icon{
+        font-size: x-small !important;
+    }
+    .division-line{
+        width: 2.5rem;
+    }
+    .show-details{
+        font-size:x-small !important;
+    }
+    .subtotal{
+        font-size:x-small !important;
+    }
+
+    .subtotal-number{
+        font-size:x-small !important;
+    }
+
+    .total-cost{
+        font-size:x-small !important;
+    }
+
+    .total-cost-number{
+        font-size:x-small !important;
+    }
+
+    .shopping-cart-title-container{
+        font-size:x-small !important;
+    }
+
+    .shopping-cart-item-image{
+        height:6rem;
+        width:6rem;
+    }
+
+    .shopping-cart-item-list{
+        height:8rem;
+    }
+
+    .shopping-cart-item-details-name{
+        font-size:x-small !important;
+    }
+
+    .shopping-cart-item-details-duration{
+        margin-top: 1rem !important;
+    }
+    .tattoo-size-search-container {
+        width: 9rem;
+    }
+
+    .shopping-cart-item-details-price{
+        font-size:x-small !important;
+    }
+    /*.shopping-cart-item-details-trashcan {*/
+    /*    margin-top:2rem;*/
+    /*}*/
+
+    .shopping-cart-item-details-size{
+        margin-top: 1rem !important;
+    }
+
+
+    .current-quantity-container{
+        font-size:x-small;
+        height: 1.5rem;
+        width: 3rem
+    }
+
+
+    .tattoo-size-search-container>label{
+        font-size:x-small !important;
+    }
+
+    .tattoo-size-search-container>select{
+        font-size:x-small !important;
+    }
+
+    .total-price{
+        font-size:x-small !important;
+    }
+
+    .total-price-detail{
+        font-size:x-small !important;
+    }
+    .shopping-cart-item-details-total-price{
+        margin-top: 0;
+    }
+
+    .confirm-and-checkout-button{
+        font-size:x-small !important;
+    }
+
+    .shopping-cart-item-details-duration{
+        margin-top:2rem;
+    }
+
+    .shopping-cart-item-details-size{
+        margin-top:2rem;
+    }
+
+    .shopping-cart-item-details-trashcan{
+        margin-top:0rem;
+    }
+
+    .trashcan{
+        height: 1.5rem;
+        width: 1.5rem
+    }
+
+    .confirm-button{
+        width: 9rem;
+    }
+
+}
+
+
+

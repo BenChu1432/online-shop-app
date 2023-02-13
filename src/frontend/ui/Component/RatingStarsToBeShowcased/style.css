@@ -1,0 +1,28 @@
+.rating-stars-label{
+
+}
+
+.rating-stars-container{
+    cursor: pointer;
+    display: flex;
+    align-items: flex-start;
+}
+
+.star{
+    cursor: pointer;
+    color: #e4e5e9;
+    clip-path: inset(0 0 0 50%);
+    margin-bottom: 5px;
+}
+
+.star:hover{
+    color: #ffc107;
+}
+
+
+
+.half-star{
+    cursor: pointer;
+    position: absolute;
+    overflow: hidden;
+}

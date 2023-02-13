@@ -1,0 +1,209 @@
+.transaction-process-page-container{
+    margin-bottom:3rem;
+}
+
+.tick-image{
+    width: 4rem;
+    margin-top: 1rem;
+    margin-bottom:3rem;
+}
+.payment-successful-message{
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.email-message{
+    margin: 1rem 5rem;
+    opacity: 80%;
+}
+
+.social-media-logos-and-customer-service-container{
+    display: flex;
+    justify-content: center
+}
+
+.social-media-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-right: 7rem;
+}
+
+.social-media{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.social-media-logos-container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.wechat-logo{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.social-media-logos{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.wechat-mobile{
+    display: flex;
+    position: absolute;
+    left:85%;
+    width: 7rem;
+    align-self: center;
+    opacity: 70%;
+    font-style: italic;
+}
+
+.customer-service-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 7rem;
+}
+
+
+.payment-page-proceed-button{
+    display: flex;
+    justify-content: center;
+}
+
+.payment-page-button-container{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.payment-page-confirm-button{
+    width: 15rem;
+    height:2rem;
+    margin: 0.5rem 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgb(250,65,76);
+    border: transparent;
+    border-radius: 5px;
+}
+
+.payment-page-confirm-button:hover{
+    color: white;
+}
+
+.payment-page-confirm-button>button{
+    width: 15rem;
+    height: 2rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(250,65,76);
+    border: transparent;
+    border-radius: 5px;
+}
+
+.complete-transaction-link{
+    text-decoration: none;
+    color: white;
+}
+
+.complete-transaction-link:hover{
+    color: white;
+}
+
+@media (max-width:900px){
+    .social-media-container{
+        margin-right: 3rem;
+    }
+    .customer-service-container{
+        margin-left: 3rem;
+    }
+}
+
+@media(max-width: 750px){
+
+    .tick-image{
+        width: 3rem;
+    }
+    .payment-successful-message{
+        font-size: medium;
+    }
+    .email-message{
+        font-size: small;
+    }
+    .payment-page-confirm-button{
+        width:11rem;
+    }
+    .payment-page-confirm-button>button{
+        width: 11rem;
+        font-size: small;
+    }
+
+    .social-media{
+        font-size: small;
+    }
+
+    .social-media-logos{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .wechat-logo{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 0.1rem;
+    }
+
+}
+
+@media(max-width: 450px){
+    .tick-image{
+        width: 2rem;
+    }
+    .payment-successful-message{
+        font-size: small;
+    }
+    .email-message{
+        font-size: x-small;
+        margin: 1rem 3rem;
+    }
+    .payment-page-confirm-button{
+        width:8rem;
+    }
+    .payment-page-confirm-button>button{
+        width: 8rem;
+        font-size: x-small;
+        margin: unset;
+    }
+
+    .social-media{
+        font-size: x-small;
+    }
+
+    .social-media-logos{
+        width: 1rem;
+        height: 1rem;
+    }
+    .wechat-logo{
+        width: 1rem;
+        height: 1rem;
+        margin-top: 0.3rem;
+    }
+}
+

@@ -1,0 +1,91 @@
+.invoice-container{
+    height: 13rem;
+    width:30%;
+    border: solid rgb(232,232,232);
+    font-size: 0.95rem;
+    margin-left: 2rem;
+}
+.invoice-and-products-container{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+}
+
+.invoice-with-shipping-container{
+    height: 15rem;
+    width:100%;
+    border: solid rgb(232,232,232);
+    font-size: 0.95rem;
+    margin-left: 2rem;
+}
+
+.number-of-items{
+    display: flex;
+    justify-content: flex-start;
+    margin: 1rem;
+    opacity: 70%;
+}
+
+.show-details{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.95rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.subtotal-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.subtotal-number{
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.shipping-cost-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping-cost{
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.shipping-cost-number{
+    font-weight: bold;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.total-cost-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-cost{
+    font-weight: bold;
+    margin: 1rem;
+}
+
+.total-cost-number{
+    font-weight: bold;
+    margin: 1rem;
+}
+
+@media (max-width: 1150px){
+    .invoice-container{
+        width:90vw;
+        margin-left:0;
+    }
+}

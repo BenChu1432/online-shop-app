@@ -1,0 +1,221 @@
+.upload-page-container{
+    height:80rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload-error-message{
+    margin-left:1rem;
+    font-size: small;
+    color: red;
+}
+
+.upload-page-container>h4{
+    font-weight: bold;
+}
+
+.upload-form{
+    width:38rem;
+    border: solid rgb(194,194,194);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.upload-form-tattoo-name{
+    margin: 2rem 1rem 2rem 2rem;
+}
+
+.upload-form-tattoo-name>label{
+    font-size: medium;
+    font-weight: bold;
+    margin-right:0.5rem;
+}
+
+.upload-form-ideal-size-header{
+    font-size: medium;
+    font-weight: bold;
+    margin-left:2rem;
+    margin-right:0.5rem;
+}
+
+.upload-form-tattoo-short-duration-sizes-container{
+    display: flex;
+    flex-direction: column;
+}
+.upload-form-tattoo-short-duration-sizes{
+    margin: 0 0.5rem 0 2rem;
+}
+
+.upload-form-tattoo-short-duration-sizes>p{
+    font-style: italic;
+    margin-top:0.5rem;
+    margin-bottom:0;
+}
+
+.upload-form-tattoo-short-duration-sizes>label{
+    margin-top:0.5rem;
+    margin-right:0.5rem;
+}
+
+.upload-form-hashtags{
+    margin-top:1rem;
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+.upload-form-hashtags>label{
+    margin-bottom:0.5rem;
+    font-weight: bold;
+}
+
+.upload-form-hashtags>textarea{
+    width:100%;
+}
+.upload-form-hashtags>textarea:focus{
+    border: solid rgb(1,94,204);
+}
+
+.upload-form-image{
+    margin-top:2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+.upload-form-image>label{
+    margin-bottom:0.5rem;
+    font-weight: bold;
+}
+
+.upload-form-image>input{
+    width:100%;
+    height:3rem;
+}
+
+.upload-button{
+    margin-bottom: 1rem;
+    margin-top:1rem;
+    margin-left:2rem;
+}
+
+
+.upload-form-description{
+    margin-left:2rem;
+}
+
+.upload-form-description>label{
+    margin-bottom:0.5rem;
+    font-weight: bold;
+}
+
+.upload-form-description>textarea{
+    height: 9rem;
+    width:95%;
+}
+.upload-form-description>textarea:focus{
+    border: solid rgb(1,94,204);
+}
+
+/*.upload-form-tattoo-short-duration-sizes{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*}*/
+
+.upload-form-theme{
+    margin: 1.1rem;
+    margin-left:2rem;
+    margin-bottom:1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-form-theme>header{
+    margin-right:2.1rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+.upload-form-themes-container>label{
+    margin-right:0.5rem;
+}
+
+.upload-form-themes-container>input{
+    margin-right:0.5rem;
+}
+
+.upload-form-color{
+    margin-left:2.1rem;
+    margin-bottom:2rem;
+    display: flex;
+}
+
+.upload-form-color>header{
+    margin-right:2.7rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+.upload-form-colors-container>label{
+    margin-right:0.5rem;
+}
+
+.upload-form-colors-container>input{
+    margin-right:0.5rem;
+}
+
+.upload-form-duration-header{
+    margin-top:1.5rem;
+    margin-right:1.5rem;
+    margin-left:2rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.upload-form-duration{
+    margin-left:2rem;
+    margin-bottom:2rem;
+    display: flex;
+}
+
+
+
+
+.upload-form-duration>label{
+    margin-right:0.5rem;
+}
+
+.upload-form-duration>input{
+    margin-right:0.5rem;
+}
+
+.upload-form-size{
+    margin: 1.3rem;
+    margin-left:2rem;
+    margin-bottom:2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.upload-form-size>header{
+    margin-right:1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.upload-form-each-size>input{
+    margin-right:0.5rem;
+}
+
+.upload-form-each-size>label{
+
+}
+
+
+
+

@@ -1,0 +1,110 @@
+.body{
+}
+
+.verification-email-page-container{
+    margin-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.company-logo{
+    width:15rem;
+    margin-bottom: 3rem;
+}
+
+.verification-email-message{
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.tick-image{
+    width: 4rem;
+    margin-top: 1rem;
+    margin-bottom:3rem;
+}
+
+@media(max-width: 850px){
+    .company-logo{
+        width:10rem;
+        margin-bottom: 2rem;
+    }
+
+    .verification-email-message{
+        font-size:medium;
+        margin-bottom: 1rem;
+    }
+    .email-message {
+        font-size: small;
+    }
+    .payment-page-confirm-button {
+        width:12rem;
+
+    }
+    .payment-page-confirm-button>button {
+        display: flex;
+        margin:0;
+        justify-content: center;
+        align-items: center;
+        font-size: small;
+    }
+
+}
+
+@media(max-width: 570px){
+    .verification-email-page-container{
+        margin-top:2rem;
+    }
+    .company-logo{
+        width:7rem;
+        margin-bottom: 1rem;
+    }
+    .verification-email-message{
+        font-size:small;
+        margin-bottom: 1rem;
+    }
+    .email-message {
+        font-size: x-small;
+    }
+    .payment-page-confirm-button {
+        width:8rem;
+        height:1.5rem;
+    }
+    .payment-page-confirm-button>button {
+        height:1.5rem;
+        display: flex;
+        margin:0;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-small;
+    }
+}
+@media (max-width: 450px) {
+    .payment-page-confirm-button {
+        width:8rem;
+    }
+    .company-logo{
+        width:5rem;
+    }
+    .verification-email-message{
+        font-size:x-small;
+        margin-bottom: 1rem;
+    }
+    .email-message {
+        font-size: xx-small;
+    }
+    .payment-page-confirm-button>button {
+        display: flex;
+        margin:0;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-small;
+    }
+    .verification-email-page-container {
+       padding-bottom: 2rem;
+    }
+    .social-media-container {
+        margin-top:1rem;
+    }
+    .customer-service-container {
+        margin-top:1rem;
+    }
+}

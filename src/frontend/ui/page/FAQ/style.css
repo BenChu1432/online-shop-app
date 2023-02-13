@@ -1,0 +1,35 @@
+
+
+.FAQ{
+    margin-top: 3rem;
+}
+
+.questions-logo{
+    margin-top: 1rem;
+    width:30%;
+}
+
+.applying-tattoos{
+    align-self: start;
+    margin-top:5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.FAQ-container{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.FAQ-item{
+    width:60%;
+}
+
+.FAQ-header{
+
+}
+
+.FAQ-body{
+    text-align: start;
+}

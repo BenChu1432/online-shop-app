@@ -1,0 +1,19 @@
+.spinner{
+    height: 100vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 750px){
+    .spinner{
+        font-size:small;
+    }
+}
+
+@media(max-width: 550px){
+    .spinner{
+        font-size:x-small;
+    }
+}

@@ -1,0 +1,50 @@
+.pagination-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+
+.pages-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.current-page{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F34336;
+    height:3rem;
+    width:3rem;
+    border: solid rgb(232,232,232);
+}
+
+.each-page{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:3rem;
+    width:3rem;
+    border: solid rgb(232,232,232);
+}
+
+.dot-dot-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:3rem;
+    width:3rem;
+    border: solid rgb(232,232,232);
+}
+
+.page-number{
+
+}
+
+.current-page-number{
+    color:white;
+}

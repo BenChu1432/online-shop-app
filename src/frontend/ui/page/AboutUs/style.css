@@ -1,0 +1,358 @@
+.about-us-page-container{
+    display: flex;
+    flex-direction: column;
+}
+.about-us-company-logo{
+    margin-top:4rem;
+    align-self: center;
+    width:10%;
+}
+
+.about-us-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.about-us-container.appear{
+    opacity: 1;
+}
+
+.rectangle-and-about-us-part{
+    display: flex;
+    margin-left:10rem;
+    padding-bottom: 2rem;
+}
+
+.rectangle{
+    height: 40px;
+    width: 8px;
+    margin-top: 3rem;
+    margin-left:1rem;
+    background-color: #FF6464;
+}
+
+.anxiousCat{
+    width:10rem;
+}
+
+.about-us-part{
+    color:#0a055a;
+    margin-top: 3.5rem;
+    margin-left:2rem;
+    font-size:1.7rem;
+}
+
+.mission-container{
+    font-family: Times, Times New Roman, serif;
+    font-size: large;
+    margin-left:9rem;
+    display: flex;
+}
+
+.mission-content-container{
+    display:flex;
+    align-items: center;
+    margin-right:5rem;
+    opacity: 0;
+    transform: translateX(+40%);
+    transition: 500ms transform ease-out;
+}
+
+.mission-content:first-letter{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255,100,100);
+}
+
+.mission-pic{
+    width:50%;
+    opacity: 0;
+    transform: translateX(-40%);
+    transition: 500ms transform ease-out;
+}
+
+.mission-pic.appear,.mission-content-container.appear{
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+
+.about-us-pic{
+    width:40%;
+}
+
+.about-us-content-paragraph-one{
+    text-align: start;
+    margin-left:16rem;
+    margin-right: 14rem;
+    margin-bottom: 3rem;
+    font-family: Times, Times New Roman, serif;
+    font-size: large;
+}
+
+.about-us-content-paragraph-one:first-letter{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255,100,100);
+}
+
+.daily-fashion{
+    font-weight: bold;
+}
+
+.context-container{
+    font-family: Times, Times New Roman, serif;
+    font-size: large;
+    margin-top: 7rem;
+    margin-left:10rem;
+    display: flex;
+}
+
+.context-content{
+    opacity: 0;
+    transform: translateX(-40%);
+    display: flex;
+    align-self: center;
+    transition: 500ms transform ease-out;
+}
+
+.context-content.appear{
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.context-pic{
+    width:50%;
+    margin-left:2rem;
+    margin-right:5rem;
+    transition: 500ms transform ease-out;
+    transform: translateX(40%);
+    opacity: 0;
+}
+
+.context-pic.appear{
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.products-content-paragraph-one{
+    text-align: start;
+    margin-left:16rem;
+    margin-right: 14rem;
+    margin-bottom: 3rem;
+    font-family: Times, Times New Roman, serif;
+    font-size: large;
+}
+
+.products{
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.products.appear{
+    opacity: 1;
+}
+
+.products-content-paragraph-one:first-letter{
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255,100,100);
+}
+
+.product-illustration{
+    display: flex;
+    align-self: center;
+    width:35%;
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.product-illustration.appear{
+    opacity: 1;
+}
+
+.products-content-paragraph-two{
+    text-align: start;
+    margin: 3rem 14rem 3rem 16rem;
+    font-family: Times, Times New Roman, serif;
+    font-size: large;
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.products-content-paragraph-two.appear{
+    opacity: 1;
+}
+
+@media(max-width: 1180px){
+    .rectangle-and-about-us-part{
+        margin-left: 6rem;
+    }
+    .about-us-content-paragraph-one{
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .context-container{
+        margin-left: 4rem;
+    }
+
+    .products-content-paragraph-two{
+        margin: 3rem 10rem 3rem 10rem;
+    }
+}
+
+@media(max-width: 1000px){
+    .rectangle-and-about-us-part{
+        margin-left: 2rem;
+    }
+    .about-us-content-paragraph-one{
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+    .context-container{
+        margin-top:4rem;
+        margin-left: 3rem;
+    }
+
+    .products-content-paragraph-two{
+        margin: 1rem 5rem 3rem 5rem;
+    }
+}
+
+@media(max-width: 920px){
+    .products-content-paragraph-one{
+        margin-left: 6rem;
+        margin-right: 4rem;
+    }
+    .context-pic{
+        width:40%;
+    }
+
+    .mission-container{
+        margin-left:2rem;
+    }
+}
+
+@media(max-width: 750px){
+    .rectangle{
+        margin-left: 4rem;
+        height: 20px;
+        width: 8px;
+    }
+    .about-us-part{
+        margin-top:3rem;
+        font-size: large;
+    }
+    .about-us-content-paragraph-one{
+        font-size: small;
+        margin-bottom:1rem;
+    }
+
+    .mission-container{
+        margin-top:2rem;
+    }
+
+    .mission-content-container{
+        margin-right:2rem;
+        font-size: small;
+    }
+    .context-content{
+        font-size: small;
+    }
+    .rectangle-and-about-us-part{
+        padding-bottom:0;
+    }
+    .products-content-paragraph-one{
+        font-size: small;
+    }
+    .products-content-paragraph-two{
+        font-size: small;
+    }
+}
+
+@media(max-width: 630px){
+    .rectangle{
+        margin-left: 2rem;
+        width:4px;
+    }
+    .about-us-part{
+        margin-top:3rem;
+        font-size: medium;
+    }
+    .about-us-content-paragraph-one{
+        font-size: x-small;
+        margin-bottom:1rem;
+    }
+
+    .mission-container{
+        margin-top:2rem;
+    }
+
+    .mission-content-container{
+        margin-right:2rem;
+        font-size: x-small;
+    }
+    .context-content{
+        font-size: x-small;
+    }
+
+    .context-pic{
+        margin-right:1rem;
+    }
+    .rectangle-and-about-us-part{
+        padding-bottom:0;
+    }
+    .products-content-paragraph-one{
+        font-size: x-small;
+    }
+    .products-content-paragraph-two{
+        font-size: x-small;
+    }
+}
+
+@media(max-width: 450px){
+    .rectangle-and-about-us-part{
+        margin-left: 0;
+    }
+    .rectangle{
+        margin-left: 2rem;
+        width:4px;
+    }
+    .about-us-part{
+        margin-top:3rem;
+        font-size: medium;
+    }
+    .about-us-content-paragraph-one{
+        font-size: x-small;
+        margin-bottom:1rem;
+        margin-left: 3rem;
+        margin-right: 2rem;
+    }
+
+    .mission-container{
+        margin-top:2rem;
+        margin-left:0;
+    }
+
+    .mission-content-container{
+        margin-right:1rem;
+        font-size: x-small;
+    }
+
+
+    .rectangle-and-about-us-part{
+        padding-bottom:0;
+    }
+    .products-content-paragraph-one{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .products-content-paragraph-two{
+        margin: 1rem 2rem 3rem 2rem
+    }
+}

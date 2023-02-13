@@ -1,0 +1,237 @@
+
+.product-card{
+    border: transparent;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 0 14px 28px rgb(0,0,0,0.25),0 10px 10px rgb(0,0,0,0.22);
+    height:24rem;
+    width: 15rem;
+    transition: transform .15s linear .1s;
+}
+
+.product-card:hover{
+    transform: scale(1.1);
+    position: relative;
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    border-color: #007bff !important;
+}
+
+.product-size{
+    height: 100%;
+    width: 100%;
+}
+
+.product-card:hover > .product-size{
+    height: 100%;
+    width: 100%;
+    opacity: 50%;
+}
+
+
+.product-card-top{
+    height: 100%;
+    width: 15rem;
+}
+
+.product-card-bottom{
+    height: 18%;
+    border-radius: 0 0 15px 15px;
+}
+
+.card-image-and-name-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.card-description-container{
+    height: 15%;
+    width:100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+.view-icon-square{
+    height: 2rem;
+    width: 2.2rem;
+    left: 4rem;
+    /*opacity: 100%;*/
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: solid;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.shopping-cart-icon-square{
+    height: 2rem;
+    width: 2.2rem;
+    /*opacity: 100%;*/
+    left: 7rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: solid;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.view-like-square{
+    height: 2rem;
+    width: 2.2rem;
+    /*opacity: 100%;*/
+    left: 10rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: solid;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+
+.pop-up-icon{
+    height: 65%;
+    width: 65%;
+    position: absolute;
+    /*display: none;*/
+}
+
+.product-info-pop-up{
+    height: 90%;
+    width: 95%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.product-detail-link{
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}
+.card-image{
+    width:100%;
+    height: 100%;
+}
+
+
+.products-name-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.product-name{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.product-sizes-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+}
+
+.product-sizes{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.product-sizes-button{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left:1rem;
+    cursor: pointer;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    border: solid #e8e8e8;
+    border-radius: 5px;
+}
+/*rgb(245,245,220)*/
+
+
+
+.card-description-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.product-description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    opacity: 80%;
+}
+
+.card-price-container{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.price{
+    font-size: 1.5rem;
+    opacity: 70%;
+}
+
+.product-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height:100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(253,115,52,1) 82%, rgba(253,88,45,1) 100%, rgba(252,181,69,1) 100%);;
+    border-radius: 0 0 15px 15px;
+}
+
+.product-detail{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+
+.product-detail:hover{
+    outline: none;
+}
+
+@media(max-width: 750px){
+    .view-icon-square{
+        height: 1.8rem;
+        width: 2rem;
+    }
+    .shopping-cart-icon-square{
+        height: 1.8rem;
+        width: 2rem;
+    }
+    .view-like-square{
+        height: 1.8rem;
+        width: 2rem;
+    }
+}
+
+@media(max-width: 550px){
+    .pop-up-icon{
+        border-width: thin;
+    }
+}

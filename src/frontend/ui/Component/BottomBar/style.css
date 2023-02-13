@@ -1,0 +1,22 @@
+.bottom-bar-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(93,106,86);
+    color: white;
+    height:2rem;
+    width:100%;
+}
+
+@media(max-width: 750px){
+    .bottom-bar-container{
+        font-size:small;
+        height: 1.5rem;
+    }
+}
+
+@media(max-width: 450px){
+    .bottom-bar-container{
+        height:1rem;
+        font-size: x-small;
+    }
+}

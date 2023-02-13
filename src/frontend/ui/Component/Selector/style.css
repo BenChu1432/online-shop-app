@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.quantity-selector-container{
+    display: flex;
+    align-items: center;
+}
+
+#minus-button {
+    width: 36px;
+    height: 36px;
+    background-color: lightblue;
+}
+
+#selector-label {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    font-size: 24px;
+    border: 1px solid black;
+}
+
+#plus-button {
+    width: 36px;
+    height: 36px;
+    background-color: lightblue;
+}
+
+.quantity-selector-container{
+
+}

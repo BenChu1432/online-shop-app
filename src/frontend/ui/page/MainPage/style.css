@@ -1,0 +1,393 @@
+/*Carousel*/
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Roboto&display=swap');
+
+.slider-container{
+    display: flex;
+    justify-content: center;
+}
+.slider{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width:100%;
+}
+.slider-image{
+    height: 35rem;
+    width: 50rem;
+}
+
+.picture-name{
+    font-size: 3em;
+}
+.picture-description{
+    font-size: 1rem;
+}
+
+.alert{
+    margin-bottom: 0;
+}
+
+.main-page-container{
+
+}
+
+.welcome-session{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4rem;
+}
+
+.main-page-opening-tattoo{
+    width: clamp(8rem, 50%, 50rem);
+    margin-top: 2rem;
+    right:0;
+    z-index: 1;
+    overflow: hidden;
+
+}
+
+.main-page-opening-slogan{
+    font-family: Times, "Times New Roman", serif;
+    font-style: italic;
+    font-size: clamp(0.5rem, 2.5vw, 2.8rem);
+    display:flex;
+    justify-self: center;
+    margin-top:4rem;
+    align-self: center;
+    z-index: 1;
+}
+
+.highlight{
+
+}
+
+.main-page-opening-background{
+    position: absolute;
+    right:0;top:0;
+    background-color: #FE9899;
+    height:100%;
+    width:clamp(30%, 40%, 50%);
+    z-index: 0;
+}
+#horoscope-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top:4rem;
+    height:45rem;
+}
+
+.section-title{
+    height:3rem;
+    margin-left: clamp(5%,10%,15%);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.section-marker{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(254,152,153);
+}
+
+.section-title> h3{
+    margin-left:1rem;
+    font-family: Times, "Times New Roman", serif;
+}
+
+.card{
+    position:absolute;
+    aspect-ratio: 4.5/7;
+    /*background-color: rgba(255, 225, 225, 0.25);*/
+    transition: transform 800ms cubic-bezier(.3,.41,.08,.93);
+}
+
+.card-stack-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 70%;
+}
+
+.cards-group{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:20vw;
+    height: 23rem;
+    z-index: 1000;
+}
+
+
+.little-card{
+    width:5rem;
+    border-radius: 5px;
+}
+
+.big-card{
+    width:14rem;
+    border-radius: 5px;
+}
+
+.little-card{
+    top:20%;
+
+}
+
+.little-card:nth-child(1){
+    background-image: url("https://gist.githubusercontent.com/BenChu1432/ef080d76402dacbe58649994576a551b/raw/52c9d34dc78ac9b26e3a48265330d2c2362f0f69/Aquarius.svg");
+    background-size: 100% 100%;
+}
+
+.little-card-one-spread{
+    transform: translate(350%, -85%) rotate(-10deg);
+    background-size: 100% 100%;
+}
+
+
+.big-card:nth-child(2){
+    background-image: url("https://gist.githubusercontent.com/BenChu1432/f52f6fbb221ba6c6d6525e4c20b630a0/raw/0f05b74df88570e67bd83bcca535672ebcc6746a/Pisces.svg");
+    background-size: 100% 100%;
+}
+
+
+.little-card:nth-child(3){
+    background-image: url("https://gist.githubusercontent.com/BenChu1432/94c6117b81aeaf3551bbe0da6ebae379/raw/cb6f5974b4d4ddbadf35082d505a9718beca6f62/Aquarius.svg");
+    background-size: 100% 100%;
+}
+
+.little-card-two-spread{
+    transform: translate(450%, 265%) rotate(16deg);
+    background-size: 100% 100%;
+    z-Index: 1;
+}
+
+.big-card:nth-child(4){
+    background-image: url("https://gist.githubusercontent.com/BenChu1432/d24bb3eff5f76dcd248b6271b60bb2d9/raw/87bc4d13ff02d7aa40bdb2e8616724d38e413995/Leo.svg");
+    background-size: 100% 100%;
+
+}
+
+.little-card:nth-child(5){
+    background-image: url("https://gist.githubusercontent.com/BenChu1432/8f28da29ca5d9d2b49ee7eb831cf91c1/raw/0f8b5909545fcbf7af96f63e95fd39443029a210/Aquarius.svg");
+    background-size: 100% 100%;
+}
+
+.little-card-three-spread{
+    transform: translate(-310%, -82%) rotate(3deg);
+    background-size: 100% 100%;
+}
+
+.big-card:nth-child(6){
+    background-image: url("https://gist.githubusercontent.com/BenChu1432/06eb5f08e42cbbf323588cd42bb6d7ae/raw/0ca7e283b3ad3f200796b4843b89151c6f9d2d0d/Taurus.svg");
+    background-size: 100% 100%;
+}
+
+.little-card:nth-child(7){
+    background-image: url("https://gist.githubusercontent.com/BenChu1432/3824837b97857dfd542f0cfe1bc1fc3c/raw/c7f699eee10216d51a30e68125be572236ce4d9c/Aries.svg");
+    background-size: 100% 100%;
+}
+
+.little-card-four-spread{
+    transform: translate(-450%, 225%) rotate(-10deg);
+    background-size: 100% 100%;
+}
+
+.big-card:nth-child(8){
+    background-image: url("https://gist.githubusercontent.com/BenChu1432/7f2c7193beca73d78dc82c5c58dc92f2/raw/83e61301e2f2905da41586df75f18eb6c0667ece/Gemini.svg");
+    background-size: 100% 100%;
+}
+
+.horoscope-button{
+    position: absolute;
+    bottom: 18%;
+    right: 46%;
+}
+
+.horoscope-button> button{
+    border: solid rgb(250,65,76);
+    border-radius: 10px;
+    background-color: rgb(250,65,76);
+    color: white;
+    border: 0;
+    width:6.5rem;
+    cursor: pointer;
+    /*font-family: Times, "Times New Roman", serif;*/
+    font-weight: bold;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.horoscope-link{
+    text-decoration: none;
+    color:white;
+}
+
+.horoscope-link:hover{
+    color: white;
+}
+
+.horoscope-button> button{
+
+}
+
+
+@media(max-width: 1040px){
+    #horoscope-section{
+        height: 30rem;
+    }
+    .cards-group{
+        height:17rem;
+    }
+
+    .big-card{
+        width:10rem;
+    }
+
+    .little-card{
+        width:4rem;
+    }
+
+    .little-card-one-spread{
+        transform: translate(320%, -35%) rotate(-10deg);
+    }
+
+    .little-card-two-spread{
+        transform:translate(350%, 235%) rotate(16deg);
+    }
+
+    .little-card-three-spread{
+        transform: translate(-310%, -42%) rotate(3deg);
+    }
+}
+
+@media(max-width: 760px){
+    #horoscope-section{
+        height: 20rem;
+    }
+    .cards-group{
+        height:17rem;
+    }
+
+    .big-card{
+        width:8rem;
+    }
+
+    .little-card{
+        width:3rem;
+    }
+
+    .little-card-two-spread{
+        transform: translate(400%, 285%) rotate(16deg);
+    }
+
+    .horoscope-button{
+        bottom: 0;
+        right: 42%;
+    }
+    .horoscope-link{
+        font-size: x-small;
+    }
+
+    .horoscope-button>button{
+        width: 4.5rem;
+        padding: 0.5rem 0.3rem;
+        display: flex;
+        justify-content: center;
+        font-size: x-small;
+    }
+
+    .section-title>h3{
+        font-size:medium !important;
+        margin-left:1rem;
+        font-family: Times, "Times New Roman", serif;
+    }
+
+    .section-marker{
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-top: 0.9rem;
+    }
+
+}
+
+@media(max-width: 560px){
+    #horoscope-section{
+        height: 20rem;
+    }
+
+    .cards-group{
+        height:12rem;
+    }
+
+    .big-card{
+        width:6rem;
+    }
+
+    .little-card{
+        width:2rem;
+    }
+
+    .little-card-one-spread{
+        transform: translate(390%, -45%) rotate(16deg);
+    }
+
+    .horoscope-button{
+        bottom: 10%;
+        right: 40%;
+    }
+    .horoscope-button>button{
+        padding: 0.3rem 0.2rem;
+        display: flex;
+        justify-content: center;
+        font-size: x-small;
+    }
+}
+
+@media(max-width: 500px){
+    #horoscope-section{
+        height: 15rem;
+        margin-top:0;
+    }
+    .horoscope-button{
+        bottom: 0;
+    }
+    .horoscope-button>button{
+        padding: 0.3rem 0.2rem;
+        display: flex;
+        justify-content: center;
+        font-size: x-small;
+        width: 4.5rem;
+    }
+    .section-title>h3 {
+        font-size: small !important;
+        margin-left: 1rem;
+        font-family: Times, "Times New Roman", serif;
+    }
+
+}
+
+@media(max-width: 400px){
+    .main-page-container{
+        overflow-x:hidden;
+    }
+}
+
+#nature-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height:45rem;
+}
+
+
+

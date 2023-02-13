@@ -1,0 +1,46 @@
+.forgot-password-page{
+    padding-top: 10rem;
+    display: flex;
+    background-color: rgb(250,250,250);
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.forgot-password-form-general-width{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.forgot-password-form-outer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22rem;
+    background-color: rgb(255,255,255);
+}
+
+.forgot-password-form-inner-container{
+    display: flex;
+    width: 22rem;
+    border: solid rgba(187, 187, 187, 0.9);
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.forgot-password-form{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 15rem;
+    padding-top: 2rem;
+    background-color: rgb(255,255,255);
+}
+
+.forgot-password-email{
+    font-weight: bold;
+}
+
+.forgot-password-submit-button{
+    margin-top: 1rem;
+}

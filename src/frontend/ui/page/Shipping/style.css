@@ -1,0 +1,50 @@
+.package-arrived-pic{
+    margin-top:2rem;
+    width:20%;
+}
+
+.shipping-page-container{
+    margin: 3rem 3rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shipping-page-content{
+    text-align: start;
+}
+
+.table, th, td{
+    border: 1px solid;
+}
+
+.first-tree{
+    width:7rem;
+}
+
+.tree-1st-slot{
+    width:18rem;
+}
+
+.tree-2nd-slot{
+    width:18rem;
+}
+
+.table-two{
+    margin-top: 3rem;
+}
+
+.table-three{
+    margin-top: 3rem;
+}
+
+.table-four{
+    margin-top: 3rem;
+}
+
+.bulk-orders-content{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: start;
+    font-family: 'Source Sans Pro', sans-serif;
+}
